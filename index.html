@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>My Awesome Single Page Site</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: sans-serif;
+            background-color: #171717;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(2, 1fr);
+            gap: 20px;
+            margin: 50px auto;
+            max-width: 960px;
+            padding: 20px;
+            border-radius: 20px;
+            background-color: 171717;
+            box-shadow: 0 0px 10px 2px #EDEDED;
+            transition: 0.25s ease-in-out;
+            opacity: 0.8;
+            filter: grayscale(25%);
+
+        }
+
+        .grid:hover {
+            box-shadow: 0 0px 20px 2px #EDEDED;
+            filter: grayscale(0);
+            opacity: 1;
+        }
+
+        .grid a {
+            display: flex;
+            flex-direction: column;
+            align-items: left;
+            justify-content: center;
+            color: #333;
+            text-decoration: none;
+            font-size: 24px;
+            font-weight: bold;
+            transition: 0.25s ease-in-out;
+            height: 100px;
+            width: 300px;
+        }
+
+
+        .grid1 {
+            background-image: url('vibulan.jpeg');
+            background-size: cover;
+            background-position: center;
+            min-height: 600px;
+            
+        }
+
+        .grid2 {
+            background-image: url('srinithi.jpeg');
+            background-size: cover;
+            background-position: center;
+            min-height: 600px;
+        }
+
+        .grid3 {
+            background-image: url('magneticstar.jpeg');
+            background-size: cover;
+            min-height: 600px;
+        }
+
+        .grid4 {
+            background-image: url('surya.jpg');
+            background-size: cover;
+            background-position: center;
+            min-height: 600px;
+            text-align: center;
+        }
+
+        .button{
+            background-color: white;
+            text-align: center;
+            border-radius: 20px;
+            padding: 10px;
+            font-size: 24;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="grid grid1">
+        <a href="https://vibulan.github.io/">
+            <h2 class="button">Vibulan</h2>
+        </a>
+    </div>
+    <div class="grid grid2">
+        <a href="https://srinithins.github.io/">
+            <h2 class="button">Srinithi</h2>
+
+        </a>
+    </div>
+    <div class="grid grid3">
+        <a href="https://imrahuln24.github.io/">
+            <h2 class="button">Rahul</h2>
+
+        </a>
+    </div>
+    <div class="grid grid4">
+        <a href="https://suryargv27.github.io/">
+            <h2 class="button">Surya Raghav</h2>
+        
+    </div>
+</body>
+
+</html>
